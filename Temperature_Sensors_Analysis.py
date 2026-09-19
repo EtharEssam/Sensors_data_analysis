@@ -8,7 +8,7 @@ print("PROBLEM 1")
 print("=" * 50)
 
 # --- 1.1 ---
-data = np.loadtxt("sensor_readings.csv", delimiter=",")
+data = np.loadtxt("sensors_data.csv", delimiter=",")
 print("1.1 shape:", data.shape)
 print("1.1 dtype:", data.dtype)
 # shape is (30, 6) -> 30 rows = 30 days, 6 columns = 6 sensors
